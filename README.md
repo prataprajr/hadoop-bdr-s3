@@ -12,7 +12,9 @@ This script lets you backup important HDFS folders to Amazon S3 storage. The hig
  - Hadoop cluster with an edge node running on any Hadoop compatible Linux Operating system
  - Install the following packages in your edge node(or wherever the script is running):
    * mailx
-   * aws cli  (http://docs.aws.amazon.com/cli/latest/userguide/installing.html)  
+   * aws cli  (http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
+ - If using a Kerberised hadoop cluster, generate keytab file for HDFS user and store it in a secure location.
+   Reference: https://kb.iu.edu/d/aumh
       
 ##List of Scripts
  - hdfsbdr.sh
