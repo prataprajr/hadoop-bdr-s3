@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: Pratap Raj
 # Purpose: Backup MySQL and PostgresSQL database dumps to Amazon S3 for Disaster recovery
-# Retention period: 1 daily, 1 weekly
+# Retention period: 1 daily, 2 weekly
 
 ############     User configuratble variables - Edit as per your environment    #############
 #############################################################################################
