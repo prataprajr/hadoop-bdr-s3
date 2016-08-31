@@ -1,4 +1,4 @@
-# hadoop
+# Hadoop backup and disaster recovery to AWS S3
 Hadoop cluster administration scripts
 
 ##Introduction
